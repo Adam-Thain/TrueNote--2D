@@ -22,9 +22,15 @@ public class BeatScroller : MonoBehaviour
     /// </summary>
     void Update()
     {
+        
         if (!hasStarted)
         {
-            hasStarted = true;
+            /*
+            if (Input.anyKeyDown)
+            {
+                hasStarted = true;
+            }
+            */
         }
         else
         {
